@@ -1,0 +1,103 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel} 
+\usepackage[top=2.5cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{longtable}
+
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+            \vspace*{1cm}
+
+            \includegraphics[scale=0.07]{png/logo-color.png}
+
+            \vspace{0.8cm}
+            \Huge
+            \textbf{Heritage}
+
+            \vspace{0.5cm}
+            \LARGE
+            Document de Spécification des Exigences
+
+            \vspace{1.5cm}
+
+            \textbf{Aloys LANA}
+
+            \vfill
+            \Large
+            Travail d'Étude et de Recherche pour le Master 1 Informatique, parcours Données et Systèmes
+            Connectés.\\
+
+            \vspace{1cm}
+            \large
+            Université Jean Monnet, Saint Étienne, 2023
+        \end{center}
+    \end{titlepage}
+
+    \tableofcontents
+
+    \newpage
+
+    \section{Introduction}
+        \subsection{Objet du Document}
+        Ce document a pour principal objectif de décrire l'ensemble des exigences de l'application Heritage, application de gestion de bibliothèque littéraire. Ce document aura également pour objectif d'offrir une vision complète des fonctionnalités du système et une vision schématique des processus de ce dernier.
+        
+        \subsection{Portée}
+        Le projet Heritage est destiné à plusieurs catégories de lecteur : 
+        \begin{itemize}
+            \item Tout d'abord, le lecteur lambda qui possédent une bibliothèque et qui veut garder une trace de tous les ouvrages qu'il posséde. En effet, à partir d'un certain nombre d'ouvrages possédés, il peut s'avérer compliqué de se souvenir de tous ceux que l'on posséde. Heritage permettra donc a ces lecteurs de garder une trace de cela et de classer sa bibliothèque de manière efficace.
+            \item Ensuite, l'application Heritage s'adressera également aux lecteurs qui apprécie noté les oeuvres et échangé à leurs sujets à travers les forums et systèmes de notations.
+        \end{itemize}
+        Tout cela permettra aux utilisateurs du système de centraliser tous leur environnement de lecture en un seul point et de faciliter leur expérience. \\
+        De plus, le système inclura un système de recommendation de nouvelles oeuvres en fonction des goûts de l'utilisateur. Ce qui permettra à celui-ci de découvrir de nouveaux livres en rapport avec ce qu'il aime. 
+
+        \subsection{Acronymes et Définitions}
+
+        \subsection{Références}
+
+        \subsection{Aperçu du Document}
+        Le document sera subdivisé en 4 grandes parties :
+        \begin{enumerate}
+            \item Une Introduction Générale du Document qui permettra de définir la portée, le public visé par ce document et quelques acronymes utiles à la lecture de ce document.
+            \item Ensuite, viendra une Description Générale du Système qui donnera une vision globale du fonctionnement du système, ainsi que l'environnement de fonctionnement, de développement et les contraintes liées à celui-ci.
+            \item Puis, le document décrira les exigences fonctionnelles du système.
+            \item Enfin, les exigences non-fonctionnelles du système (portabilité, performance, sécurité, etc) seront décrites dans la dernière partie de ce document.
+        \end{enumerate}
+    
+    \newpage
+
+    \section{Description Générale du Système}
+        \subsection{Environnement}
+        Le système sera une application web qui sera donc accessible par tous les systèmes d'exploitation par l'intermédiaire d'un navigateur web. 
+        Les navigateurs pris en charges seront :
+        \begin{itemize}
+            \item Firefox
+            \item Chrome
+            \item Brave 
+            \item Opera GX
+        \end{itemize}
+
+        \subsection{Fonctionnalités}
+        Le système devra posséde les fonctionnalités suivantes :
+    
+
+    \newpage
+    \section{Historique du Document}
+    \begin{longtable}[c]{| c | c | c |}
+        \caption{Historique des Versions}\\
+        \hline
+        Version & Date & Modifications \\
+        \hline
+        0.1 & 05/05/2023 & Rédaction de l'Introduction et début de la Description Générale. \\
+        \hline
+        \endfirsthead
+        
+    \end{longtable}
+
+\end{document}
